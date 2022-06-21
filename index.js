@@ -10,7 +10,7 @@ function sleep(ms) {
 
 const GoStumble = (auth) => new Promise((resolve, reject) => {
 
-  fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/'+round, {
+  fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/{}'.format(juara),
     method: 'GET',
     headers: {
       'authorization': auth
@@ -44,15 +44,25 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @
 
   
 
-console.log(`${chalk.bgBlue(`
-1.GRIND PIALA
-
-2.GRIND MAHKOTA
-
-SIlahkan Pilih Nomer `)} 
-`);
-const round = rs.question(`[+] Select Number  : `);
-    console.log('');
+print('1. Trophy')
+print('2. Crown')
+ronde = input('Choose: ')
+time.sleep(1)
+total_thread = os.cpu_count()
+time.sleep(1)
+loop = 1
+def main():
+	auth = open("auth.txt", "r")
+	headers = {
+	'authorization':auth.read()
+	}
+	while loop == 1:
+		jam = datetime.datetime.now()
+		if ronde == '1':
+			juara = 2
+		else:
+			juara = 3
+		req =
   
   
   
