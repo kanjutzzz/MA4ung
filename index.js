@@ -1,8 +1,8 @@
 const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
-const rs = require('readline-sync');
 const CFonts = require('cfonts');
+const rs = require('readline-sync');
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -18,19 +18,13 @@ function sleep(ms) {
         await sleep(3000);
         console.clear()
         console.log(`${chalk.yellow(`Since Script 2022 - 5 - 21`)}`)
-
-
-
-   console.log(`${chalk.bgRed(`
+        console.log(`${chalk.bgRed(`
 1 Push Trophy
 3 Push Crown
 Choose to use the available number`)} 
 `);
 
-
-
 const GoStumble = (auth) => new Promise((resolve, reject) => {
-
 		
       fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/'+round, {
        	 method: 'GET',
