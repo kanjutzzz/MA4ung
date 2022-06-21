@@ -7,14 +7,6 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-console.log(`${chalk.white(`
-1 Push Trophy
-3 Push Crown
-Choose to use the available number`)} 
-`);
-const round = rs.question(`[+] Select Number  : `);
-    console.log('');
-
 
 const GoStumble = (auth) => new Promise((resolve, reject) => {
 
@@ -50,6 +42,19 @@ console.log('')
 By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @Eskey ft @xDast#8745 
 `);
 
+  
+
+console.log(`${chalk.red(`
+1 Push Trophy
+3 Push Crown
+Choose to use the available number`)} 
+`);
+const round = rs.question(`[+] Select Number  : `);
+    console.log('');
+  
+  
+  
+  
  
   const auth = rs.question('Masukin code nya deck! : ');
   console.log('');
