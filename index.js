@@ -27,6 +27,20 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
+  
+ 
+  
+  
+  console.log(chalk.bgCyan(`
+  / ___/ __/ / / / __ `__ \/ __ \/ / _ \   / __ \/ __ `/ ___/ //_/
+ (__  ) /_/ /_/ / / / / / / /_/ / /  __/  / / / / /_/ / /__/ ,<   
+/____/\__/\__,_/_/ /_/ /_/_.___/_/\___/  /_/ /_/\__,_/\___/_/|_|`)
+  
+  
+  
+  
+  
+  
   console.log(`Trophy And Crown Hack Safe! [ReEdit]
 By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @Eskey ft @xDast#8745 also @epan
 `);
@@ -59,13 +73,13 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @
 
 console.log(chalk.red('Status:Succes'));
 console.log('') 
-console.log(chalk.green(`Time : [ ${moment().format('HH:mm:ss')} ]`),)     
+console.log(chalk.bgGreen(`Time : [ ${moment().format('HH:mm:ss')} ]`),)     
 console.log('')     
-console.log(chalk.magenta(`User : ${username}`))   
+console.log(chalk.bgMagenta(`User : ${username}`))   
 console.log('')
-console.log(chalk.yellow(`Trophy : ${trophy}`))   
+console.log(chalk.bgYellow(`Trophy : ${trophy}`))   
 console.log('')
-console.log(chalk.cyan(`Crown : ${crown}`))   
+console.log(chalk.bgCyan(`Crown : ${crown}`))   
      
       
       await GoStumble(auth);
