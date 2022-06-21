@@ -59,13 +59,13 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#87
 
 console.log(chalk.bgRed('Status:Succes'));
 
-console.log(chalk.bgWhite(`Time : [ ${moment().format('HH:mm:ss')} ] 
+console.log(chalk.bgWhite(`Time : ${moment().format('HH:mm:ss`)} 
 
-${chalk.bgMagenta(`User : ${username}`)} | 
+console.log{chalk.bgMagenta(`User : ${username}`)}
 
-${chalk.bgYellow(`Trophy : ${trophy}`)} | 
+console.log{chalk.bgYellow(`Trophy : ${trophy}`)}
 
-${chalk.bgCyan(`Crown : ${crown}`)}`));
+console.log{chalk.bgCyan(`Crown : ${crown}`)}`));
      
       
       await GoStumble(auth);
