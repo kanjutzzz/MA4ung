@@ -43,12 +43,13 @@ console.log('')
 By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @Eskey ft @xDast#8745 
 `);
 	
-console.log(chalk.gbRed(`Choose what to grind`);
-console.log(chalk.gbGreen(`1. Trophy only (Round 3 auth)`);
-console.log(chalk.gbCyan(`2. Crown + Trophy (Winner auth)`);
-
-const round = rs.question(`Choose : `)
-console.log('');  
+console.log(`${chalk.gbRed(`
+1 Push Trophy
+3 Push Crown
+Choose to use the available number`)} 
+`);
+const round = rs.question(`[+] Select Number  : `);
+    console.log('');
   
   
   
