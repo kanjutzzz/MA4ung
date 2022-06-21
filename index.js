@@ -66,8 +66,9 @@ ${chalk.green(`Trophy : ${trophy}`)} |
 ${chalk.cyan(`Crown : ${crown}`)}`));
 
 console.log('')
-      
-      
+console.log('')
+console.log('')     
+console.log('')      
       
       await GoStumble(auth);
       await GoStumble(auth);
