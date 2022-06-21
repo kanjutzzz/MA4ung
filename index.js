@@ -1,4 +1,4 @@
-@echo off & setlocal DisableDelayedExpansion
+echo off & setlocal DisableDelayedExpansion
 set counter=4
 :Start
 if %counter% equ 0 goto :LOCKOUT
