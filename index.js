@@ -31,10 +31,12 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
  
   
   
-  console.log(chalk.bgCyan(`
-  / ___/ __/ / / / __ `__ \/ __ \/ / _ \   / __ \/ __ `/ ___/ //_/
- (__  ) /_/ /_/ / / / / / / /_/ / /  __/  / / / / /_/ / /__/ ,<   
-/____/\__/\__,_/_/ /_/ /_/_.___/_/\___/  /_/ /_/\__,_/\___/_/|_|`)
+console.log(chalk.red('W E L C O M E'));
+  
+
+  
+
+console.log(chalk.bgRed('S T U M B L E H A C K S'));
   
   
   
