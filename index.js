@@ -39,8 +39,7 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#87
     const result = await GoStumble(auth);
     if (!result) {
 
-      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] CODE NYA SALAH DECK:`)); 
-      break;
+      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] CODE NYA SALAH DECK:`));break;
       
 
     } else if (result.includes('User')) {
