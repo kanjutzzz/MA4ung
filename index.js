@@ -43,7 +43,7 @@ console.log('')
 By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @Eskey ft @xDast#8745 
 `);
 	
-console.log9(chalk.gbRed(`Choose what to grind`);
+console.log(chalk.gbRed(`Choose what to grind`);
 console.log(chalk.gbGreen(`1. Trophy only (Round 3 auth)`);
 console.log(chalk.gbCyan(`2. Crown + Trophy (Winner auth)`);
 
