@@ -46,11 +46,12 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#87
 
       const data = JSON.parse(result);
       const username = data.User.Username;
+      const status = data.user.Status
       const country = data.User.Country;
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.red(`Status:Succes)
+console.log(chalk.red('Status:Succes'));
 console.log(chalk.bgBlack(`Time:\r[ ${moment().format('HH:mm:ss')} ] 
 ${chalk.magenta(`CALON KEBAN : ${username}`)} | 
 ${chalk.green(`PIALA : ${trophy}`)} | 
