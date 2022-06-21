@@ -44,9 +44,9 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @
 `);
 	
 console.log(`${chalk.gbRed(`
-1 Push Trophy
-3 Push Crown
-Choose to use the available number`)} 
+1. GRIND TROPHY
+2. GRIND CROWN
+SILAHKAN PILIH`)} 
 `);
 const round = rs.question(`[+] Select Number  : `);
     console.log('');
