@@ -32,8 +32,7 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#87
 `);
 
   
-  console.log(chalk.cyan('𝓢 𝓣 𝓤 𝓜 𝓑 𝓛 𝓔 
-𝓗 𝓐 𝓒 𝓚 𝓢'));
+  console.log(chalk.cyan('S T U M B L E H A C K S'));
 
   
   
