@@ -13,7 +13,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 	
 console.log('1. Trophy')
 console.log('2. Crown')
-console.log('ronde = input('Choose: ')
+console.log(`ronde : = input('Choose: `))
 console.log(`time.sleep(1)
 total_thread = os.cpu_count()
 time.sleep(1)
