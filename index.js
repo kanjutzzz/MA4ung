@@ -56,27 +56,26 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#87
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.red('Status:Succes'));
+console.log(chalk.bgRed('Status:Succes'));
 
-console.log(chalk.bgBlack(`Time: [${moment().format('HH:mm:ss')} ] 
+console.log(chalk.green(`Time: [${moment().format('HH:mm:ss')} ] 
 
-${chalk.magenta(`User : ${username}`)} | 
+${chalk.bgMagenta(`User : ${username}`)} | 
 
-${chalk.green(`Trophy : ${trophy}`)} | 
+${chalk.bgYellow(`Trophy : ${trophy}`)} | 
 
-${chalk.cyan(`Crown : ${crown}`)}`));
-
-console.log('')
-console.log('')
-console.log('')     
-console.log('')      
+${chalk.bgCyan(`Crown : ${crown}`)}`));
+     
       
       await GoStumble(auth);
       await GoStumble(auth);
       await GoStumble(auth);
       await GoStumble(auth);
-      console.log(chalk.cyan('PLEASE BE PATIENT'));
+      console.log('')
+      console.log('')
       await sleep(11000);
+      
+      
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your Account has been Banned`));
