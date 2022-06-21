@@ -2,10 +2,31 @@ const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
 const rs = require('readline-sync');
+const CFonts = require('cfonts');
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+(async () => {
+	console.clear()
+ CFonts.say(`Hack Sg`, {
+            font: '3D',
+            align: 'left',
+            gradient: ['red', 'magenta']
+        })
+        await sleep(3000);
+        console.clear()
+        console.log(`${chalk.yellow(`Since Script 2022 - 5 - 21`)}`)
+
+
+
+   console.log(`${chalk.bgRed(`
+1 Push Trophy
+3 Push Crown
+Choose to use the available number`)} 
+`);
+
 
 
 const GoStumble = (auth) => new Promise((resolve, reject) => {
@@ -27,7 +48,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 });
 
-(async () => {
+
 
   
   
@@ -45,15 +66,7 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @
 	
 
   
-   console.log(`${chalk.bgRed(`
-1 Push Trophy
-3 Push Crown
-Choose to use the available number`)} 
-`);
-	
-	
-const round = rs.question(`[+] Select Number  : `);
-    console.log('');
+ 
  
  
   const auth = rs.question('Masukin code nya deck! : ');
