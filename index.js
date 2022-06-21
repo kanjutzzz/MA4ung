@@ -50,8 +50,8 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#87
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.magenta(`CALON KEBAN : ${username}`)} | ${chalk.green(`Trophy : ${trophy}`)} | ${chalk.cyan(`Crown : ${crown}`)}`));
-      await sleep(3000);
+console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.magenta(`CALON KEBAN : ${username}`)} | ${chalk.green(`PIALA : ${trophy}`)} | ${chalk.cyan(`MAHKOTA : ${crown}`)}`));
+      await sleep(5000);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your Account has been Banned`));
