@@ -57,15 +57,15 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.bgRed('Status:Succes'));
+console.log(chalk.Red('Status:Succes'));
 console.log('') 
-console.log(chalk.bgGreen(`Time : [ ${moment().format('HH:mm:ss')} ]`),)     
+console.log(chalk.Green(`Time : [ ${moment().format('HH:mm:ss')} ]`),)     
 console.log('')     
-console.log(chalk.bgMagenta(`User : ${username}`))   
+console.log(chalk.Magenta(`User : ${username}`))   
 console.log('')
-console.log(chalk.bgYellow(`Trophy : ${trophy}`))   
+console.log(chalk.Yellow(`Trophy : ${trophy}`))   
 console.log('')
-console.log(chalk.bgCyan(`Crown : ${crown}`))   
+console.log(chalk.Cyan(`Crown : ${crown}`))   
      
       
       await GoStumble(auth);
