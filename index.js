@@ -44,10 +44,10 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @
 
   
 
-print('1. Trophy')
-print('2. Crown')
-ronde = input('Choose: ')
-time.sleep(1)
+console.log('1. Trophy')
+console.log('2. Crown')
+console.log('ronde = input('Choose: ')
+console.log(`time.sleep(1)
 total_thread = os.cpu_count()
 time.sleep(1)
 loop = 1
@@ -62,7 +62,7 @@ def main():
 			juara = 2
 		else:
 			juara = 3
-		req =
+		req =    ')
   
   
   
