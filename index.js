@@ -11,7 +11,7 @@ function sleep(ms) {
 const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 		
- fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/'+round, {
+ request.get('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/{}'.format(juara),
     method: 'GET',
     headers: {
       'authorization': auth
