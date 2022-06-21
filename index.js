@@ -11,25 +11,12 @@ function sleep(ms) {
 const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 	
-console.log('1. Trophy')
-console.log('2. Crown')
-console.log(`ronde : = input('Choose: `))
-console.log(`time.sleep(1)
-total_thread = os.cpu_count()
-time.sleep(1)
-loop = 1
-def main():
-	auth = open("auth.txt", "r")
-	headers = {
-	'authorization':auth.read()
-	}
-	while loop == 1:
-		jam = datetime.datetime.now()
-		if ronde == '1':
-			juara = 2
-		else:
-			juara = 3
-		req =    ')	
+console.log(`Choose what to grind`);
+console.log(`1. Trophy only (Round 3 auth)`);
+console.log(`2. Crown + Trophy (Winner auth)`);
+
+const round = rs.question(`Choose : `)
+console.log('');
 		
  fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/3', {
     method: 'GET',
