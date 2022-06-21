@@ -28,7 +28,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 (async () => {
 
   console.log(`Trophy And Crown Hack Safe! [ReEdit]
-By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#8745
+By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#8745 also @kahfx
 `);
 
   const auth = rs.question('Masukin code nya deck! : ');
@@ -51,7 +51,7 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#87
       const crown = data.User.Crowns;
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
-      await sleep(5000);
+      await sleep(1500);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your Account has been Banned`));
