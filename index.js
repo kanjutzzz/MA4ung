@@ -30,11 +30,11 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
   
   
-console.log(chalk.red('W E L C O M E'));
+console.log(chalk.bgRed('W E L C O M E'));
   
 console.log('')  
 
-console.log(chalk.bgRed('S T U M B L E H A C K S'));  
+console.log(chalk.bgGreen('ϟS T U M B L E H A C K Sϟ'));  
   
 console.log('')  
   
@@ -44,12 +44,12 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @
 
   
 
-console.log(`${chalk.bgRed(`
-1.GRIND PIALA ( ~ sedang perkembangan dan gak work ~  )
+console.log(`${chalk.bgBlue(`
+♛1.GRIND PIALA ( ~ sedang perkembangan dan gak work ~  )
 
-3.GRIND MAHKOTA
+♛2.GRIND MAHKOTA
 
-Choose to use the available number`)} 
+SIlahkan Pilih Nomer `)} 
 `);
 const round = rs.question(`[+] Select Number  : `);
     console.log('');
@@ -92,6 +92,7 @@ console.log(chalk.bgCyan(`♠Crown : ${crown}`))
       await GoStumble(auth);
       await GoStumble(auth);
       await GoStumble(auth);
+      console.log('')
       console.log('')
       await sleep(11000);
       
