@@ -33,18 +33,18 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
   
 console.log(chalk.red('W E L C O M E'));
   
-
+console.log('')
   
 
 console.log(chalk.bgRed('S T U M B L E H A C K S'));
   
   
-  
+console.log('')  
   
   
   
   console.log(`Trophy And Crown Hack Safe! [ReEdit]
-By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @Eskey ft @xDast#8745 also @epan
+By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @Eskey ft @xDast#8745 
 `);
 
   
