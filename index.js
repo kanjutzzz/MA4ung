@@ -11,7 +11,7 @@ function sleep(ms) {
 const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 		
-      fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/{}'.format(juara),
+      fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/'+round, {
        	 method: 'GET',
        headers: {
       'authorization': auth
@@ -43,15 +43,18 @@ console.log('')
 By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @Eskey ft @xDast#8745 
 `);
 	
-console.log(`Choose what to grind`);
-console.log(`1. Trophy only (Round 3 auth)`);
-console.log(`2. Crown + Trophy (Winner auth)`);
 
-const round = rs.question(`Choose : `)
-console.log('');  
   
-  
-  
+   console.log(`${chalk.bgRed(`
+1 Push Trophy
+3 Push Crown
+Choose to use the available number`)} 
+`);
+	
+	
+const round = rs.question(`[+] Select Number  : `);
+    console.log('');
+ 
  
   const auth = rs.question('Masukin code nya deck! : ');
   console.log('');
