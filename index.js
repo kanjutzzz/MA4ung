@@ -1,7 +1,6 @@
 const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
-const CFonts = require('cfonts');
 const rs = require('readline-sync');
 
 function sleep(ms) {
@@ -9,15 +8,6 @@ function sleep(ms) {
 }
 
 (async () => {
-	console.clear()
- CFonts.say(`Hack Sg`, {
-            font: '3D',
-            align: 'left',
-            gradient: ['red', 'magenta']
-        })
-        await sleep(3000);
-        console.clear()
-        console.log(`${chalk.yellow(`Since Script 2022 - 5 - 21`)}`)
         console.log(`${chalk.bgRed(`
 1 Push Trophy
 3 Push Crown
