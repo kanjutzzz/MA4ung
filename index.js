@@ -8,17 +8,20 @@ function sleep(ms) {
 }
 
 (async () => {
-        console.log(`${chalk.bgRed(`
+        console.log(`${chalk.yellow(`Since Script 2022 - 5 - 21`)}`)
+console.log(`${chalk.white(`
 1 Push Trophy
 3 Push Crown
 Choose to use the available number`)} 
 `);
+const round = rs.question(`[+] Select Number  : `);
+    console.log('');
+    
+    const GoStumble = (auth) => new Promise((resolve, reject) => {
 
-const GoStumble = (auth) => new Promise((resolve, reject) => {
-		
-      fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/'+round, {
-       	 method: 'GET',
-       headers: {
+  fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/'+round, {
+    method: 'GET',
+    headers: {
       'authorization': auth
     }
   })
@@ -32,21 +35,6 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 });
 
-
-
-  
-  
-console.log(chalk.bgRed('W E L C O M E'));
-  
-console.log('')  
-
-console.log(chalk.bgGreen('ϟS T U M B L E H A C K Sϟ'));  
-  
-console.log('')  
-  
-  console.log(`Trophy And Crown Hack Safe! [ReEdit]
-By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @Eskey ft @xDast#8745 
-`);
 	
 
   
