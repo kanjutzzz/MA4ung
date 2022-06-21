@@ -1,13 +1,32 @@
 const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
+const CFonts = require('cfonts');
 const rs = require('readline-sync');
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-const GoStumble = (auth) => new Promise((resolve, reject) => {
+(async () => {
+	console.clear()
+ CFonts.say(`Hack Sg`, {
+            font: '3D',
+            align: 'left',
+            gradient: ['cyan', 'yellow']
+        })
+        await sleep(3000);
+        console.clear()
+console.log(`${chalk.white(`
+1 PIALA SAJA
+3 MAHKOTA SAJA
+Choose to use the available number`)} 
+`);
+const round = rs.question(`[+] Select Number  : `);
+    console.log('');
+    
+    const GoStumble = (auth) => new Promise((resolve, reject) => {
+
 
   fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/3', {
     method: 'GET',
