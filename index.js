@@ -58,13 +58,13 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @
       const crown = data.User.Crowns;
 
 console.log(chalk.bgRed('Status:Succes'));
-
-console.log(chalk.bgWhite(`[ ${moment().format('HH:mm:ss')} ]`),)     
-      
+console.log('')
+console.log(chalk.black(`[ ${moment().format('HH:mm:ss')} ]`),)     
+ console.log('')     
 console.log(chalk.bgMagenta(`User : ${username}`))   
-
+console.log('')
 console.log(chalk.bgYellow(`Trophy : ${trophy}`))   
-
+console.log('')
 console.log(chalk.bgCyan(`Crown : ${crown}`))   
      
       
