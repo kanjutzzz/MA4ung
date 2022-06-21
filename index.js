@@ -50,7 +50,12 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#87
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.magenta(`CALON KEBAN : ${username}`)} | ${chalk.green(`PIALA : ${trophy}`)} | ${chalk.cyan(`MAHKOTA : ${crown}`)}`));
+console.log(chalk.red(`Status:Succes)
+console.log(chalk.bgBlack(`Time:\r[ ${moment().format('HH:mm:ss')} ] 
+${chalk.magenta(`CALON KEBAN : ${username}`)} | 
+${chalk.green(`PIALA : ${trophy}`)} | 
+${chalk.cyan(`MAHKOTA : ${crown}`)}`));
+      
       await GoStumble(auth);
       await GoStumble(auth);
       await GoStumble(auth);
