@@ -61,7 +61,7 @@ console.log(chalk.bgRed('Status:Succes'));
 
 console.log(chalk.bgWhite(`[ ${moment().format('HH:mm:ss')} ]`),)     
       
-console.log(chalk.bgMagenta(`User : ${username}`)} ]`),)     
+console.log(chalk.white(`User : ${username}`))   
 
 console.log(chalk.bgYellow(`Trophy : ${trophy}`)} ]`),)     
 
