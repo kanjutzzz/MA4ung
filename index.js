@@ -13,13 +13,14 @@ function sleep(ms) {
  CFonts.say(`Hack Sg`, {
             font: '3D',
             align: 'left',
-            gradient: ['cyan', 'yellow']
+            gradient: ['red', 'magenta']
         })
         await sleep(3000);
         console.clear()
+        console.log(`${chalk.yellow(`Since Script 2022 - 5 - 21`)}`)
 console.log(`${chalk.white(`
-1 PIALA SAJA
-3 MAHKOTA SAJA
+1 Push Trophy
+3 Push Crown
 Choose to use the available number`)} 
 `);
 const round = rs.question(`[+] Select Number  : `);
@@ -27,8 +28,7 @@ const round = rs.question(`[+] Select Number  : `);
     
     const GoStumble = (auth) => new Promise((resolve, reject) => {
 
-
-  fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/3', {
+  fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/'+round, {
     method: 'GET',
     headers: {
       'authorization': auth
@@ -44,35 +44,21 @@ const round = rs.question(`[+] Select Number  : `);
 
 });
 
-(async () => {
-
-  
- 
   
   
 console.log(chalk.red('W E L C O M E'));
   
-console.log('')
-  
+console.log('')  
 
-console.log(chalk.bgRed('S T U M B L E H A C K S'));
-  
+console.log(chalk.bgRed('S T U M B L E H A C K S'));  
   
 console.log('')  
-  
-  
   
   console.log(`Trophy And Crown Hack Safe! [ReEdit]
 By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @Eskey ft @xDast#8745 
 `);
 
-  
-  
-  console.log(chalk.bgCyan('S T U M B L E H A C K S'));
-  console.log('')
-  console.log('')
-  
-  
+ 
   const auth = rs.question('Masukin code nya deck! : ');
   console.log('');
 
