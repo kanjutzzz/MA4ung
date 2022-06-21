@@ -51,7 +51,12 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#87
       const crown = data.User.Crowns;
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.magenta(`CALON KEBAN : ${username}`)} | ${chalk.green(`PIALA : ${trophy}`)} | ${chalk.cyan(`MAHKOTA : ${crown}`)}`));
-      await sleep(5000);
+      await GoStumble(auth);
+      await GoStumble(auth);
+      await GoStumble(auth);
+      await GoStumble(auth);
+      console.log(`SABAR NGENTOD DELAY`)
+      await sleep(11000);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your Account has been Banned`));
