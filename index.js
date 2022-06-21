@@ -61,11 +61,11 @@ console.log(chalk.bgRed('Status:Succes'));
 
 console.log(chalk.bgWhite(`Time : [ ${moment().format('HH:mm:ss')} ] 
 
-console.log{chalk.bgMagenta(`User : ${username}`)} | 
+${chalk.bgMagenta(`User : ${username}`)} | 
 
-console.log{chalk.bgYellow(`Trophy : ${trophy}`)} | 
+${chalk.bgYellow(`Trophy : ${trophy}`)} | 
 
-console.log{chalk.bgCyan(`Crown : ${crown}`)}`));
+${chalk.bgCyan(`Crown : ${crown}`)}`));
      
       
       await GoStumble(auth);
