@@ -43,7 +43,7 @@ console.log('')
 By : ${chalk.bold('Mr.Russel#0001')} - Credit to special person : @dkmpostor & @Eskey ft @xDast#8745 
 `);
 	
-console.log(`${chalk.gbRed(`
+console.log(`${chalk.bgRed(`
 1. GRIND TROPHY
 2. GRIND CROWN
 SILAHKAN PILIH`)} 
