@@ -32,7 +32,8 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#87
 `);
 
   
-  console.log(chalk.cyan('S T U M B L E H A C K S'));
+  
+  console.log(chalk.bgCyan('S T U M B L E H A C K S'));
   console.log('')
   console.log('')
   
@@ -58,7 +59,7 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#87
 
 console.log(chalk.bgRed('Status:Succes'));
 
-console.log(chalk.green(`Time: [${moment().format('HH:mm:ss')} ] 
+console.log(chalk.bgWhite(`Time: [${moment().format('HH:mm:ss')} ] 
 
 ${chalk.bgMagenta(`User : ${username}`)} | 
 
