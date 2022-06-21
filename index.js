@@ -33,7 +33,8 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#87
 
   
   console.log(chalk.cyan('S T U M B L E H A C K S'));
-
+  console.log('')
+  console.log('')
   
   
   const auth = rs.question('Masukin code nya deck! : ');
