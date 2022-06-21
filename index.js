@@ -64,6 +64,8 @@ ${chalk.magenta(`User : ${username}`)} |
 ${chalk.green(`Trophy : ${trophy}`)} | 
 
 ${chalk.cyan(`Crown : ${crown}`)}`));
+
+console.log('')
       
       
       
