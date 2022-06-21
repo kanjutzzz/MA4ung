@@ -59,7 +59,7 @@ By : ${chalk.bold('Mr.Russel#0001')} - Credit : @dkmpostor & @Eskey ft @xDast#87
 
 console.log(chalk.bgRed('Status:Succes'));
 
-console.log(chalk.bgBlack(`[ ${moment().format('HH:mm:ss')} ]`),)     
+console.log(chalk.bgWhite(`[ ${moment().format('HH:mm:ss')} ]`),)     
       
 console.log{chalk.bgMagenta(`User : ${username}`)}
 
