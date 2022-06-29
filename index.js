@@ -79,7 +79,7 @@ const round = rs.question(`[+] Select Number  : `);
 
 console.log(chalk.bgRed('♠Status:Succes')); 
 console.log('') 
-console.log(chalk.bgWhite(`♠Region : ${region}`))
+console.log(chalk.bgWhite(`♠Country : ${country}`))
 console.log('')   
 console.log(chalk.bgGreen(`♠Time : [ ${moment().format('HH:mm:ss')} ]`),)     
 console.log('')     
