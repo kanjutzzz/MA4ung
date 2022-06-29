@@ -2,38 +2,10 @@ const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
 const rs = require('readline-sync');
-const CFonts = require('cfonts');
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
-
-(async () => {
-	console.clear()
- CFonts.say(`V3`, {
-            font: '3D',
-            align: 'left',
-            gradient: ['red', 'yellow']
-        })
-        await sleep(3000);
-        console.clear()
-
-
-const username_1 = rs.question('Username : ')
-
-const password_1 = rs.question('Password : ')
-  console.log('')
-  console.log('')
-  console.log('')
-  console.log(chalk.bgRed('Data Accepted')); 
-  console.log('')
-  console.log('Welcome Back')
-  await sleep(3000); 
-  console.clear()
-
-
-
-
 
 
 
